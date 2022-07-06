@@ -1,0 +1,62 @@
+.title {
+  margin-top: 158px;
+  font-family: 'Finger Paint';
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 65px;
+ 
+  color: #0026ED;
+
+}
+
+*{
+   background-color: #F3B18C;
+}
+
+.squares {
+  width: 80px;
+  height: 80px;
+  border: 10px solid black;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.squares:hover{
+  background: rgb(164, 164, 164);
+}
+
+.area-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.header-comp {
+  text-align: center;
+}
+
+.textX {
+  color: red;
+  
+}
+
+.textO {
+  color: #0026ED;
+}
+
+.textX:hover {
+  color:white;
+  background-color: red;
+  
+}
+
+.textO:hover {
+  color: white;
+  background-color: #0026ED;
+}
+
